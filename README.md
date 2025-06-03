@@ -1,5 +1,8 @@
 # agent
 
+## Prompt Chaining 
+Decomposing into fixed subtasks. 
+
 ```mermaid
 flowchart LR;
     IN((IN))-->LLM1;
