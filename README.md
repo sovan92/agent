@@ -2,9 +2,9 @@
 
 ```mermaid
 flowchart LR;
-    IN-->LLM1;
+    ((IN))-->LLM1;
     LLM1-->GATE;
     GATE-->LLM2;
     LLM2-->LLM3;
-    LLM3-->OUT;
+    LLM3-->((OUT));
 ```
