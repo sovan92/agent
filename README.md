@@ -11,3 +11,12 @@ flowchart LR;
     LLM2-->LLM3;
     LLM3-->OUT((OUT));
 ```
+
+## Routing 
+
+flowchart LR;
+    IN((IN))-->LLM1;
+    LLM1-->LLM2;
+    LLM1-->LLM3;
+    LLM1-->LLM4;
+    
