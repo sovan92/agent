@@ -67,3 +67,17 @@ flowchart LR;
     WORKER-->OUT((OUT));
    
 ```
+## LLM Generator Evaluator Loop (Very Popular)
+```mermaid
+
+flowchart LR;
+    IN((IN))-->GENERATOR;
+    GENERATOR-generates the solution->EVALUATOR;
+    EVALUATOR-Evaluates the work and provides feedback->GENERATOR;
+
+```
+
+
+
+
+
