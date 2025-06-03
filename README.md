@@ -90,6 +90,8 @@ flowchart LR
 - Ollama: local model . 
 - Grok: Elon Musk . 
 
+
+Duet - AI 
 LeaderBoard - Vellum leaderboard . https://www.vellum.ai/llm-leaderboard 
 
 
