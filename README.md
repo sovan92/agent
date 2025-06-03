@@ -81,7 +81,16 @@ flowchart LR
     EVALUATOR --> OUT((OUT))
 
 ```
+## What models should we be using 
+- Open API:  gpt-4o-mini , o1,o3-mini
+- Antropic:  cloude-3-7-sonet 
+- Google: gemini-2-0-flash
+- Deep Seek: Deep SeekAI , Deep Seek: R1 (It costs a fraction 30 times less spend than Open API)
+- Groq : llama3.3
+- Ollama: local model . 
+- Grok: Elon Musk . 
 
+LeaderBoard - Vellum leaderboard . https://www.vellum.ai/llm-leaderboard 
 
 
 
