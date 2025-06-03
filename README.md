@@ -22,5 +22,7 @@ flowchart LR;
     LLM1-->LLM2;
     LLM1-->LLM3;
     LLM1-->LLM4;
-
+    LLM2-->OUT((OUT));
+    LLM3-->OUT((OUT));
+    LLM4-->OUT((OUT));
 ```
