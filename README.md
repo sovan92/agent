@@ -51,3 +51,19 @@ class COORDINATOR,AGGREGATOR blue
 
 
 ```
+
+## Orchestrator-Worker
+Concurrent task break down by a Orchestrator and Aggregating by a Worker, both of which are LLM
+```mermaid
+
+flowchart LR;
+    IN((IN))-->ORCHESTRATOR;
+    ORCHESTRATOR-->LLM2;
+    ORCHESTRATOR-->LLM3;
+    ORCHESTRATOR-->LLM4;
+    LLM2-->WORKER;
+    LLM3-->WORKER;
+    LLM4-->WORKER;
+    WORKER-->OUT((OUT));
+   
+```
