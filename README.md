@@ -1,8 +1,8 @@
 # agent
 
 ```mermaid
+flowchart LR
 graph TD;
-    flowchart LR
     IN-->LLM1;
     LLM1-->GATE;
     GATE-->LLM2;
