@@ -69,15 +69,13 @@ flowchart LR;
 ```
 ## LLM Generator Evaluator Loop (Very Popular)
 ```mermaid
-
-flowchart LR;
-    IN((IN))-->GENERATOR;
-    GENERATOR-->EVALUATOR:generates the solution;
-    EVALUATOR-->GENERATOR:Evaluates the work and provides feedback;
-    EVALUATOR-->OUT((OUT))
+flowchart LR
+    IN((IN)) --> GENERATOR
+    GENERATOR -->|generates the solution| EVALUATOR
+    EVALUATOR -->|Evaluates the work and provides feedback| GENERATOR
+    EVALUATOR --> OUT((OUT))
 
 ```
-
 
 
 
