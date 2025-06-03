@@ -31,12 +31,21 @@ flowchart LR;
 ```
 
 ## Parallelization
-
+Concurrent task break down by a GATE and Aggregating by a Aggregator
 ```mermaid
 
 flowchart LR;
-
-
+    IN((IN))-->COORDINATOR;
+    COORDINATOR-->LLM2;
+    COORDINATOR-->LLM3;
+    COORDINATOR-->LLM4;
+    LLM2-->AGGREGATOR;
+    LLM3-->AGGREGATOR;
+    LLM4-->AGGREGATOR;
+    AGGREGATOR-->OUT((OUT));
+   
+classDef blue fill:#0080FE
+class COORDINATOR,AGGREGATOR blue
 
 
 ```
