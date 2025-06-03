@@ -1,6 +1,11 @@
 # agent
 
 Blue boxes are Applications. Rest are LLMs. 
+- Prompt chaining
+- Routing
+- Paralleization
+- Orchestrator-worker
+- generator-evaluator
 
 ## Prompt Chaining 
 Decomposing into fixed subtasks. 
