@@ -10,6 +10,9 @@ flowchart LR;
     GATE-->LLM2;
     LLM2-->LLM3;
     LLM3-->OUT((OUT));
+
+classDef blue fill:#0080FE
+class GATE blue
 ```
 
 ## Routing 
@@ -25,4 +28,15 @@ flowchart LR;
     LLM2-->OUT((OUT));
     LLM3-->OUT((OUT));
     LLM4-->OUT((OUT));
+```
+
+## Parallelization
+
+```mermaid
+
+flowchart LR;
+
+
+
+
 ```
