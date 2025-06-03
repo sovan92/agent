@@ -72,8 +72,8 @@ flowchart LR;
 
 flowchart LR;
     IN((IN))-->GENERATOR;
-    GENERATOR-[generates the solution]->EVALUATOR;
-    EVALUATOR-[Evaluates the work and provides feedback]->GENERATOR;
+    GENERATOR-->EVALUATOR:generates the solution;
+    EVALUATOR-->GENERATOR:Evaluates the work and provides feedback;
     EVALUATOR-->OUT((OUT))
 
 ```
