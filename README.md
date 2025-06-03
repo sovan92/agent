@@ -1,5 +1,7 @@
 # agent
 
+Blue boxes are Applications. Rest are LLMs. 
+
 ## Prompt Chaining 
 Decomposing into fixed subtasks. 
 
