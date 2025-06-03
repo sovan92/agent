@@ -7,5 +7,5 @@ graph TD;
     LLM1-->GATE;
     GATE-->LLM2;
     LLM2-->LLM3;
-    LLM3-->OUT
+    LLM3-->OUT;
 ```
