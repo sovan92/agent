@@ -95,7 +95,18 @@ Order of complexity
 - No Framework use the LLM directly .
 - MCP - Model Context protocol . How would model be connected to data and tools.
 - Open AI Agent's SDK -  , Crew AI - Low code  , mostly configuration.
-- Lang Graph , Auto Gen 
+- Lang Graph , Auto Gen
+
+## Tools provided to LLM 
+Tools are used by LLM to do something. Basically this happens under the hood. 
+
+```mermaid
+flowchart LR;
+    Code((Code))-->|Should get me this thing through a tool|LLM((LLM));
+    LLM((LLM))-->|A Json Response which says to use the Tool with these parameters|Code((Code));
+    Code((Code))-->|Use the json response to call the tool|Tool((Tool));   
+```
+
 
 Duet - AI 
 LeaderBoard - Vellum leaderboard . https://www.vellum.ai/llm-leaderboard 
