@@ -90,6 +90,12 @@ flowchart LR
 - Ollama: local model . 
 - Grok: Elon Musk . 
 
+## Agentic AI framework 
+Order of complexity
+- No Framework use the LLM directly .
+- MCP - Model Context protocol . How would model be connected to data and tools.
+- Open AI Agent's SDK -  , Crew AI - Low code  , mostly configuration.
+- Lang Graph , Auto Gen 
 
 Duet - AI 
 LeaderBoard - Vellum leaderboard . https://www.vellum.ai/llm-leaderboard 
