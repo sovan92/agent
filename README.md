@@ -102,7 +102,7 @@ Tools are used by LLM to do something. Basically this happens under the hood.
 
 ```mermaid
 flowchart LR;
-    Code((Code))-->|Should get me this thing through a tool|LLM((LLM));
+    Code((Code))-->|Get me this thing through a tool|LLM((LLM));
     LLM((LLM))-->|A Json Response which says to use the Tool with these parameters|Code((Code));
     Code((Code))-->|Use the json response to call the tool|Tool((Tool));   
 ```
